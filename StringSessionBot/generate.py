@@ -48,7 +48,7 @@ async def generate_session(bot, msg, telethon=False):
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
-    phone_number_msg = await bot.ask(user_id, 'Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+19876543210`', filters=filters.text)
+    phone_number_msg = await bot.ask(user_id, 'Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+62876543210`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
@@ -115,7 +115,7 @@ async def generate_session(bot, msg, telethon=False):
     except KeyError:
         pass
     await client.disconnect()
-    await phone_code_msg.reply("Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @StarkBots".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @zyrosofficial".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
