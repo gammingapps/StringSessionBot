@@ -10,7 +10,7 @@ Bot ini khusus pengambilan String Session, jika kamu masih ragu silahkan!
 1) Blok bot ini
 2) Hapus pesan bot ini
 
-Budayakan membaca!
+Budayakan membaca ya goblokk!
 Create by @shockingsoda
     """
 
