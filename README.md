@@ -70,6 +70,7 @@ Channel :- [@zyrosofficial](https://t.me/zyrosofficial)
 
 Group Chat :- [@zyrosupdates](https://t.me/zyrosupdates)
 
+Thanks for me💎
 ## :)
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
